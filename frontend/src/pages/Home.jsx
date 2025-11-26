@@ -1,5 +1,5 @@
 export default function Home() {
-    return (
+        return (
         <div className="page">
             <h1>Bienvenido al Restaurante 🍲</h1>
             <p>Explora nuestra lista de platos disponibles.</p>

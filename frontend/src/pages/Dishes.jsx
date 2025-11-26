@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import DishCard from "./components/DishCard.jsx";
+import DishCard from "../components/Dishcard.jsx";
 
 export default function Dishes() {
     const [dishes, setDishes] = useState([]);
@@ -77,3 +77,4 @@ export default function Dishes() {
         </div>
     );
 }
+
